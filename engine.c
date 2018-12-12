@@ -74,7 +74,7 @@ static void engine_log_message(char *str, int syslog_type_int) {
 }
 
 static sapi_module_struct engine_module = {
-	"gophp-engine",              // Name
+	"litespeed",                 // Name. Simulate to conform https://github.com/php/php-src/blob/4f26b3b51b35e969ea0312229f3b93e25ef05006/ext/opcache/ZendAccelerator.c#L2480
 	"Go PHP Engine Library",     // Pretty Name
 
 	NULL,                        // Startup
